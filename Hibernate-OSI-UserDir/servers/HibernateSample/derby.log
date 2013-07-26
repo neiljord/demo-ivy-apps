@@ -1,0 +1,14 @@
+----------------------------------------------------------------
+Fri Jul 26 16:17:21 BST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0140-1b8e-3bf4-0000010cd080 
+on database directory C:\Users\IBM_ADMIN\wdt-ivy-workspace\Neils User Dir\servers\HibernateSample\PhoneBookDB  with class loader com.ibm.ws.classloading.internal.AppClassLoader@7e167e16 
+Loaded from null
+java.vendor=IBM Corporation
+java.runtime.version=jvmwa6460sr9-20110624_85526
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 amd64-64 jvmwa6460sr9-20110624_85526 (JIT enabled, AOT enabled)
+J9VM - 20110624_085526
+JIT  - r9_20101028_17488ifx17
+GC   - 20101027_AA
+user.dir=C:\Users\IBM_ADMIN\wdt-ivy-workspace\Neils User Dir\servers\HibernateSample
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

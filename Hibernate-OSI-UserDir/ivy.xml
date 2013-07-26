@@ -1,0 +1,24 @@
+<ivy-module version="2.0" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+			
+    <info organisation="IBM" module="hibernate-osi"/>
+    
+    <configurations>
+	    <conf name="provided" description="Dependencies provided by the server or a shared library at runtime" />
+	</configurations>
+	
+    <dependencies>
+	    <dependency org="org.springframework" name="spring-beans" rev="3.0.5.RELEASE" conf="provided->default" />
+	    <dependency org="org.springframework" name="spring-jdbc" rev="3.0.5.RELEASE" conf="provided->default" />
+		<dependency org="org.springframework" name="spring-web"	rev="3.0.5.RELEASE" conf="provided->default" />
+		<dependency	org="org.springframework" name="spring-webmvc" rev="3.0.5.RELEASE" conf="provided->default" />
+		<dependency	org="org.springframework" name="spring-orm"	rev="3.0.5.RELEASE" conf="provided->default" />
+		<dependency	org="commons-dbcp" name="commons-dbcp" rev="1.4" conf="provided->default" />			 
+		<dependency	org="commons-pool" name="commons-pool" rev="1.6" conf="provided->default" />
+		<dependency	org="org.hibernate"	name="hibernate-entitymanager" rev="3.6.9.Final" conf="provided->default" />
+		<dependency	org="org.slf4j" name="slf4j-nop" rev="1.6.1" conf="provided->default" />
+		<dependency	org="org.apache.geronimo.bundles" name="derby-all" rev="10.8.2.2_1"	conf="provided->master" />
+	</dependencies>
+		 
+</ivy-module>

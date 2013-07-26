@@ -1,0 +1,13 @@
+<project xmlns:ivy="antlib:org.apache.ivy.ant" default="build">
+	<property name="sample.libs.dir.name" value="HibernateSampleLibs" />
+	
+	<target name="build">
+		<ivy:retrieve pattern="shared/resources/${sample.libs.dir.name}/[artifact]-[revision].[ext]" type="jar" />
+	</target>
+	
+	<target name="clean">
+		<delete includeEmptyDirs="true">
+			<fileset dir="shared/resources/${sample.libs.dir.name}" includes="**/*" defaultexcludes="no"/>
+		</delete>
+	</target>
+</project>

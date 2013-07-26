@@ -1,0 +1,20 @@
+<server description="HibernateSampleServer">
+
+    <!-- Enable features -->
+    <featureManager>
+        <feature>jsp-2.2</feature>
+		<feature>servlet-3.0</feature>
+		<feature>jpa-2.0</feature>
+        <feature>localConnector-1.0</feature>
+    </featureManager>
+
+    <httpEndpoint httpPort="9103" id="defaultHttpEndpoint"/>
+
+	<include location="${shared.config.dir}/HibernateSampleLibs.xml"/>
+   
+    <application id="PhoneBookByHibernate-1.0.0" location="PhoneBookByHibernate-1.0.0.war" name="PhoneBookByHibernate-1.0.0" type="war">
+		<classloader commonLibraryRef="HibernateSampleLibs"/>
+	</application>
+
+    <applicationMonitor updateTrigger="mbean"/>
+</server>
