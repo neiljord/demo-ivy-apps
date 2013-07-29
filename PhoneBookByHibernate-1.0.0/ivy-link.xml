@@ -2,7 +2,7 @@
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 			xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 			
-    <info organisation="IBM" module="hibernate-osi-usrdir"/>
+    <info organisation="IBM" module="hibernate-osi"/>
     
     <configurations>
 	    <conf name="provided" description="Dependencies provided by the server or a shared library at runtime" />
