@@ -1,3 +1,2 @@
-*
-!.gitignore
-ivy.xml
+ivy-link.xml
+/build
