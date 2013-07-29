@@ -38,7 +38,7 @@
 		<link>
 			<name>ivy.xml</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/Hibernate-OSI-UserDir/ivy.xml</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Hibernate-OSI-UserDir/ivy.xml</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
