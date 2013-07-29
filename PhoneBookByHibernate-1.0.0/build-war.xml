@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
 <project xmlns:ivy="antlib:org.apache.ivy.ant" default="build">
 	<target name="build" depends="compile">
 		<war destfile="build/PhoneBookByHibernate-1.0.0.war" webxml="WebContent/WEB-INF/web.xml">
